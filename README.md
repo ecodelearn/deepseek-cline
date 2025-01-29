@@ -8,19 +8,19 @@ This document provides instructions for configuring the DeepSeek-R1:8b model.
 
 Crie um arquivo chamado `deepseek-r18b` com o seguinte conteúdo:
 
-\`\`\`bash
+```bash
 FROM deepseek-r1:8b
 PARAMETER num_ctx 32768
-\`\`\`
+```
 
 **English:**
 
 Create a file named `deepseek-r18b` with the following content:
 
-\`\`\`bash
+```bash
 FROM deepseek-r1:8b
 PARAMETER num_ctx 32768
-\`\`\`
+```
 
 ## 2. Model Configuration
 
@@ -28,14 +28,14 @@ PARAMETER num_ctx 32768
 
 Execute o seguinte comando para configurar o modelo:
 
-\`\`\`bash
+```bash
 ollama create -f deepseek-r18b deepseek-r1-new:8b
-\`\`\`
+```
 
 **English:**
 
 Execute the following command to configure the model:
 
-\`\`\`bash
+```bash
 ollama create -f deepseek-r18b deepseek-r1-new:8b
-\`\`\`
+```
