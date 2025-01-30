@@ -32,6 +32,17 @@ Execute o seguinte comando para configurar o modelo:
 ollama create -f deepseek-r18b deepseek-r1-new:8b
 ```
 
+## Custom Instructions
+
+2/ Then they use Plan mode to:
+
+- Map dependencies
+- Identify potential edge cases
+- Create hypothesis.md with [x][] format
+- Generate minimal test cases
+
+"Ask it to create test files that ONLY figure out one issue with minimal logs. You can only output 200 lines to analyze."
+
 **English:**
 
 Execute the following command to configure the model:
@@ -39,3 +50,14 @@ Execute the following command to configure the model:
 ```bash
 ollama create -f deepseek-r18b deepseek-r1-new:8b
 ```
+
+## Custom Instructions
+
+2/ Then they use Plan mode to:
+
+- Map dependencies
+- Identify potential edge cases
+- Create hypothesis.md with [x][] format
+- Generate minimal test cases
+
+"Ask it to create test files that ONLY figure out one issue with minimal logs. You can only output 200 lines to analyze."
